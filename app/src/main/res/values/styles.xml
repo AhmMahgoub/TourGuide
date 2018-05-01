@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- list item title style of list item -->
+    <style name="itemList" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/ListItemTextColor</item>
+    </style>
+
+    <!-- list item subtitle style of list item -->
+    <style name="subitemList" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/ListItemTextColor</item>
+    </style>
+
+    <!-- list item child layout style of list item -->
+    <style name="childlayoutListitem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/dim0</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/dim8</item>
+    </style>
+
+    <!-- list item parent layout style of list item -->
+    <style name="parentlayoutListitem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/dim1</item>
+    </style>
+
+    <!-- parentlayoutCardView -->
+    <style name="parentlayoutCardView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/dim5</item>
+    </style>
+
+    <!-- ImageViewOfCardView -->
+    <style name="ImageViewOfCardView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">@dimen/ImageCardViewDim</item>
+        <item name="android:layout_height">@dimen/ImageCardViewDim</item>
+        <item name="android:layout_margin">@dimen/dim16</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- TitleOfCardView -->
+    <style name="TitleOfCardView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dim16</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/dim40</item>
+    </style>
+
+    <!-- SubjectOfCardView -->
+    <style name="subjectOfCardView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dim16</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

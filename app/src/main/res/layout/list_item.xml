@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parentlayoutListitem"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+   >
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="@dimen/Image_list_layout"
+        android:layout_height="@dimen/Image_list_layout"/>
+
+    <LinearLayout
+        android:id="@+id/backGround"
+        android:layout_weight="1"
+        style="@style/childlayoutListitem"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/Title"
+            android:textStyle="bold"
+            style="@style/itemList"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text = "title"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/SubTitle"
+            tools:text = "SubTitle"
+            style="@style/itemList"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/InfoA"
+            tools:text = "artist_name"
+            style="@style/itemList"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+</LinearLayout>

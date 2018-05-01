@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- Category name for Cafes fragment  -->
+    <string name="category_cafes">Cafes</string>
+
+    <!-- Category name for Restaurents fragment  -->
+    <string name="category_Restaurants">Restaurants</string>
+
+    <!-- Category name for Events fragment  -->
+    <string name="category_Events">Events</string>
+
+    <!-- Category name for Historical places fragment  -->
+    <string name="category_Historical">Historical Places</string>
+</resources>
