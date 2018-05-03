@@ -1,6 +1,5 @@
 package com.example.android.tourguide;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -23,16 +22,16 @@ public class RestaurantFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         final ArrayList<Information> cafes = new ArrayList<Information>();
-        cafes.add(new Information("Très Bon","14 Ghernata Street, Korba, Heliopolis"," 02 24517656",R.drawable.tresbon));
-        cafes.add(new Information("Zooba","13، Baghdad St, Heliopolis","16082",R.drawable.zooba));
-        cafes.add(new Information("Ayadina","3, Cleopatra, El-Montaza"," 0102 333 1599",R.drawable.ayadina));
-        cafes.add(new Information("Raffaello Restaurant"," 11, Sesostris, El-Montaza"," 0128 522 8665",R.drawable.rafaello));
-        cafes.add(new Information("Kastan"," Abou Dawoud Al Zaher"," 02 22723062",R.drawable.kastan));
-        cafes.add(new Information("Planet Africa","Omar Ibn El-Khattab","02 24802949",R.drawable.planetafrica));
-        cafes.add(new Information("Mercado Restaurant & Cafe","El Hegaz St, El-Bostan","02 24806868",R.drawable.marcedo));
-        cafes.add(new Information("SACHI Restaurant","3, Cleopatra St. Korba"," 0128 090 2028",R.drawable.sachi));
-        cafes.add(new Information("JW Steak House","Ring Road- Mirage City- Box 427 Heliopolis"," 02 24065849",R.drawable.stt));
-        cafes.add(new Information("Sushi Bar","Ring Road- Mirage City"," 02 24115588",R.drawable.sushi));
+        cafes.add(new Information(getString(R.string.restaurant_name_1),getString(R.string.restaurant_address_1),getString(R.string.restaurant_phone_1),R.drawable.tresbon));
+        cafes.add(new Information(getString(R.string.restaurant_name_2),getString(R.string.restaurant_address_2),getString(R.string.restaurant_phone_2),R.drawable.zooba));
+        cafes.add(new Information(getString(R.string.restaurant_name_3),getString(R.string.restaurant_address_3),getString(R.string.restaurant_phone_3),R.drawable.ayadina));
+        cafes.add(new Information(getString(R.string.restaurant_name_4),getString(R.string.restaurant_address_4),getString(R.string.restaurant_phone_4),R.drawable.rafaello));
+        cafes.add(new Information(getString(R.string.restaurant_name_5),getString(R.string.restaurant_address_5),getString(R.string.restaurant_phone_5),R.drawable.kastan));
+        cafes.add(new Information(getString(R.string.restaurant_name_6),getString(R.string.restaurant_address_6),getString(R.string.restaurant_phone_6),R.drawable.planetafrica));
+        cafes.add(new Information(getString(R.string.restaurant_name_7),getString(R.string.restaurant_address_7),getString(R.string.restaurant_phone_7),R.drawable.marcedo));
+        cafes.add(new Information(getString(R.string.restaurant_name_8),getString(R.string.restaurant_address_8),getString(R.string.restaurant_phone_8),R.drawable.sachi));
+        cafes.add(new Information(getString(R.string.restaurant_name_9),getString(R.string.restaurant_address_9),getString(R.string.restaurant_phone_9),R.drawable.stt));
+        cafes.add(new Information(getString(R.string.restaurant_name_10),getString(R.string.restaurant_address_10),getString(R.string.restaurant_phone_10),R.drawable.sushi));
 
         InfoAdapter Adapter = new InfoAdapter(getActivity(), cafes, R.color.ListItemColor);
 

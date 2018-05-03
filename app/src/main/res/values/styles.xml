@@ -59,7 +59,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/dim16</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">@dimen/dim40</item>
+        <item name="android:textSize">40sp</item>
     </style>
 
     <!-- SubjectOfCardView -->

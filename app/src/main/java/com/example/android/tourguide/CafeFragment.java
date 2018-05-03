@@ -25,16 +25,16 @@ public class CafeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         final ArrayList<Information> cafes = new ArrayList<Information>();
-        cafes.add(new Information("Cafe Corniche"," Corniche El Nil, Garden City","02 27988000",R.drawable.cafecorniche));
-        cafes.add(new Information("Zitouni","1089 Corniche El Nil","02 27916877",R.drawable.zitouni));
-        cafes.add(new Information("El-Fishawi"," El-Fishawi, Khan al-Khalili"," 0102 749 9420",R.drawable.fishawy));
-        cafes.add(new Information("Beano's Cafe","Omar Al Khayam, Zamalek"," 02 33001887",R.drawable.beanos));
-        cafes.add(new Information("O's Pasta","159 Twenty-Sixth of July Street","0100 415 5756",R.drawable.ospasta));
-        cafes.add(new Information("The Osmanly Restaurant"," Kempinski Nile Hotel","02 27980000",R.drawable.osmanly));
-        cafes.add(new Information("Cilantro","33 Mohammed Mahmoud, Ad Dawawin , cairo","02 24619105",R.drawable.cilantro));
-        cafes.add(new Information("Sabaya","Qasr Ad Dobarah, cairo"," 02 27957171",R.drawable.sabaya));
-        cafes.add(new Information("Eish + Malh","Downtown, 11121","0109 874 4014",R.drawable.eish));
-        cafes.add(new Information("Abou Tarek","26 El-Shaikh Marouf","0100 635 3620",R.drawable.tarek));
+        cafes.add(new Information(getString(R.string.cafe_name_1),getString(R.string.cafe_address_1),getString(R.string.cafe_phone_1),R.drawable.cafecorniche));
+        cafes.add(new Information(getString(R.string.cafe_name_2),getString(R.string.cafe_address_2),getString(R.string.cafe_phone_2),R.drawable.zitouni));
+        cafes.add(new Information(getString(R.string.cafe_name_3),getString(R.string.cafe_address_3),getString(R.string.cafe_phone_3),R.drawable.fishawy));
+        cafes.add(new Information(getString(R.string.cafe_name_4),getString(R.string.cafe_address_4),getString(R.string.cafe_phone_4),R.drawable.beanos));
+        cafes.add(new Information(getString(R.string.cafe_name_5),getString(R.string.cafe_address_5),getString(R.string.cafe_phone_5),R.drawable.ospasta));
+        cafes.add(new Information(getString(R.string.cafe_name_6),getString(R.string.cafe_address_6),getString(R.string.cafe_phone_6),R.drawable.osmanly));
+        cafes.add(new Information(getString(R.string.cafe_name_7),getString(R.string.cafe_address_7),getString(R.string.cafe_phone_7),R.drawable.cilantro));
+        cafes.add(new Information(getString(R.string.cafe_name_8),getString(R.string.cafe_address_8),getString(R.string.cafe_phone_8),R.drawable.sabaya));
+        cafes.add(new Information(getString(R.string.cafe_name_9),getString(R.string.cafe_address_9),getString(R.string.cafe_phone_9),R.drawable.eish));
+        cafes.add(new Information(getString(R.string.cafe_name_10),getString(R.string.cafe_address_10),getString(R.string.cafe_phone_10),R.drawable.tarek));
 
         InfoAdapter Adapter = new InfoAdapter(getActivity(), cafes, R.color.ListItemColor);
 

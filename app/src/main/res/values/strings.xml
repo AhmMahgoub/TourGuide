@@ -12,4 +12,122 @@
 
     <!-- Category name for Historical places fragment  -->
     <string name="category_Historical">Historical Places</string>
+
+    <string name="cafe_name_1">Cafe Corniche</string>
+    <string name="cafe_name_2">Zitouni</string>
+    <string name="cafe_name_3">El-Fishawi</string>
+    <string name="cafe_name_4">Beanos Cafe</string>
+    <string name="cafe_name_5">Os Pasta</string>
+    <string name="cafe_name_6">The Osmanly Restaurant</string>
+    <string name="cafe_name_7">Cilantro</string>
+    <string name="cafe_name_8">Sabaya</string>
+    <string name="cafe_name_9">Eish + Malh</string>
+    <string name="cafe_name_10">Abou Tarek</string>
+
+    <string name="cafe_address_1">Corniche El Nil, Garden City</string>
+    <string name="cafe_address_2">1089 Corniche El Nil</string>
+    <string name="cafe_address_3">El-Fishawi, Khan al-Khalili</string>
+    <string name="cafe_address_4">Omar Al Khayam, Zamalek</string>
+    <string name="cafe_address_5">159 Twenty-Sixth of July Street</string>
+    <string name="cafe_address_6">Kempinski Nile Hotel</string>
+    <string name="cafe_address_7">33 Mohammed Mahmoud, Ad Dawawin , cairo</string>
+    <string name="cafe_address_8">Qasr Ad Dobarah, cairo</string>
+    <string name="cafe_address_9">Downtown, 11121</string>
+    <string name="cafe_address_10">26 El-Shaikh Marouf</string>
+
+    <string name="cafe_phone_1">02 27988000</string>
+    <string name="cafe_phone_2">02 27916877</string>
+    <string name="cafe_phone_3">0102 749 9420</string>
+    <string name="cafe_phone_4">02 33001887</string>
+    <string name="cafe_phone_5">0100 415 5756</string>
+    <string name="cafe_phone_6">02 27980000</string>
+    <string name="cafe_phone_7">02 24619105</string>
+    <string name="cafe_phone_8">02 27957171</string>
+    <string name="cafe_phone_9">0109 874 4014</string>
+    <string name="cafe_phone_10">0100 635 3620</string>
+
+    <string name="restaurant_name_1">Très Bon</string>
+    <string name="restaurant_name_2">Zooba</string>
+    <string name="restaurant_name_3">Ayadina</string>
+    <string name="restaurant_name_4">Raffaello Restaurant</string>
+    <string name="restaurant_name_5">Kastan</string>
+    <string name="restaurant_name_6">Planet Africa</string>
+    <string name="restaurant_name_7">Mercado Restaurant</string>
+    <string name="restaurant_name_8">SACHI Restaurant</string>
+    <string name="restaurant_name_9">JW Steak House</string>
+    <string name="restaurant_name_10">Sushi Bar</string>
+
+    <string name="restaurant_address_1">14 Ghernata Street, Korba, Heliopolis</string>
+    <string name="restaurant_address_2">13، Baghdad St, Heliopolis</string>
+    <string name="restaurant_address_3">3, Cleopatra, El-Montaza</string>
+    <string name="restaurant_address_4">11, Sesostris, El-Montaza</string>
+    <string name="restaurant_address_5">Abou Dawoud Al Zaher</string>
+    <string name="restaurant_address_6">Omar Ibn El-Khattab</string>
+    <string name="restaurant_address_7">El Hegaz St, El-Bostan</string>
+    <string name="restaurant_address_8">3, Cleopatra St. Korba</string>
+    <string name="restaurant_address_9">Ring Road- Mirage City- Box 427 Heliopolis</string>
+    <string name="restaurant_address_10">Ring Road- Mirage City</string>
+
+    <string name="restaurant_phone_1">02 24517656</string>
+    <string name="restaurant_phone_2">16082</string>
+    <string name="restaurant_phone_3">0102 333 1599</string>
+    <string name="restaurant_phone_4">0128 522 8665</string>
+    <string name="restaurant_phone_5">02 22723062</string>
+    <string name="restaurant_phone_6">02 24802949</string>
+    <string name="restaurant_phone_7">02 24806868</string>
+    <string name="restaurant_phone_8">0128 090 2028</string>
+    <string name="restaurant_phone_9">02 24065849</string>
+    <string name="restaurant_phone_10">02 24115588</string>
+
+    <string name="event_name_1">EGYPT JAZZ ALL-STARS @ INGRAND NILE TOWER</string>
+    <string name="event_name_2">KARAOKE NIGHT @ ROOM ART SPACE</string>
+    <string name="event_name_3">BOARD GAMES NIGHT @ GRAMOPHONE</string>
+    <string name="event_name_4">HAZEM SHAHEEN @ EL GENAINA THEATER</string>
+    <string name="event_name_5">THE MAGIC OF ALEXANDRIA @ SAFAR KHAN GALLERY</string>
+    <string name="event_name_6">OM KOLTHOUM PUPPET SHOW @ EL SAWY</string>
+    <string name="event_name_7">ARTISTS OF TOMORROW @ ARTS-MART</string>
+    <string name="event_name_8">FISHING, NUBIA HORSES @ PICASSO GALLERY</string>
+    <string name="event_name_9">FREE LAUGHTER YOGA @ AL AZHAR PARK</string>
+    <string name="event_name_10">NOSTALGIA WITH HARFOUSH @ LAUBERGE</string>
+
+    <string name="event_date_1">4/30/2018    10:00am - 5:00pm</string>
+    <string name="event_date_2"> 5/01/2018  2:00pm - 8:00pm</string>
+    <string name="event_date_3">5/02/2018  10:30am - 9:00pm</string>
+    <string name="event_date_4">5/03/2018   2:00pm - 8:00pm</string>
+    <string name="event_date_5">5/04/2018   6:00pm - 10:00pm</string>
+    <string name="event_date_6">5/05/2018   2:00pm - 8:00pm</string>
+    <string name="event_date_7">5/06/2018   10:30am - 9:00pm</string>
+    <string name="event_date_8">5/07/2018   6:00pm - 10:00pm</string>
+    <string name="event_date_9">5/08/2018    10:00am - 5:00pm</string>
+    <string name="event_date_10">5/09/2018   2:00pm - 8:00pm</string>
+
+    <string name="card_title_1">Cairo Citadel</string>
+    <string name="card_title_2">Coptic Museum</string>
+    <string name="card_title_3">Egyptian Museum</string>
+    <string name="card_title_4">Museum of Islamic Art</string>
+    <string name="card_title_5">Egyptian Geological Museum</string>
+    <string name="card_title_6">Abdeen Palace</string>
+
+    <string-array name = "my_array">
+        <item>Citadel </item>
+        <item>Citadel </item>
+        <item>Citadel </item>
+        <item>Citadel </item>
+        <item>Citadel </item>
+        <item>Citadel </item>
+    </string-array>
+
+    <string name="card_details_1">The Saladin Citadel of Cairo is a medieval Islamic fortification in Cairo, Egypt. The location, on Mokattam hill near the center of Cairo, was once famous for its fresh breeze and grand views of the city</string>
+    <string name="card_details_2">The Coptic Museum is a museum in Coptic Cairo, Egypt with the largest collection of Egyptian Christian artifacts in the world. It was founded by Marcus Simaika in 1908 to house Coptic antiquities</string>
+    <string name="card_details_3">The Museum of Egyptian Antiquities, known commonly as the Egyptian Museum or Museum of Cairo, in Cairo, Egypt, is home to an extensive collection of ancient Egyptian antiquities</string>
+    <string name="card_details_4">The Museum of Islamic Art, in Cairo, Egypt, is considered one of the greatest in the world, with its exceptional collection of rare woodwork and plaster artefacts, as well as metal, ceramic, glass, crystal, and textile objects of all periods, from all over the Islamic world</string>
+    <string name="card_details_5">The Egyptian Geological Museum is a museum in Cairo, Egypt. The museum was established in 1904 as part of the Egyptian Geological Survey, which had been started in 1896 under the direction of the Khedive Ismail. The museum was the first of its kind in the Middle East and the African continent</string>
+    <string name="card_details_6">Built on the site of a small mansion owned by Abidin Bey, Abdeen Palace, which is named after him, is considered one of the most sumptuous palaces in the world in terms of its adornments, paintings, and large number of clocks scattered in the parlors and wings, most of which are decorated with pure gold</string>
+
+
+
+
+
+
+
 </resources>

@@ -27,13 +27,19 @@ public class CardActivity extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        String[] titels = {getString(R.string.card_title_1),getString(R.string.card_title_2),getString(R.string.card_title_3)
+                               ,getString(R.string.card_title_4),getString(R.string.card_title_5),getString(R.string.card_title_6)};
+        String[] detail ={getString(R.string.card_details_1),getString(R.string.card_details_1),getString(R.string.card_details_1)
+                         ,getString(R.string.card_details_1),getString(R.string.card_details_1),getString(R.string.card_details_1)};
+
         View rootView = inflater.inflate(R.layout.activity_card, container, false);
         recyclerView = (RecyclerView) rootView.findViewById(R.id.recycler_view);
 
         layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
 
-        adapter = new RecycleAdapter();
+        adapter = new RecycleAdapter(getActivity(),titels,detail);
         recyclerView.setAdapter(adapter);
 
         return rootView;

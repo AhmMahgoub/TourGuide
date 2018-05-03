@@ -25,17 +25,17 @@ public class EventFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         final ArrayList<Information> cafes = new ArrayList<Information>();
-        cafes.add(new Information("EGYPT'S JAZZ ALL-STARS @ GRAND NILE TOWER"," 4/30/2018    10:00am - 5:00pm" ,R.drawable.egyptjazz));
-        cafes.add(new Information("KARAOKE NIGHT @ ROOM ART SPACE"," 5/01/2018  2:00pm - 8:00pm" ,R.drawable.karaoke));
-        cafes.add(new Information("BOARD GAMES NIGHT @ GRAMOPHONE","5/02/2018  10:30am - 9:00pm" ,R.drawable.board));
-        cafes.add(new Information("HAZEM SHAHEEN @ EL GENAINA THEATER","5/03/2018   2:00pm - 8:00pm" ,R.drawable.hazem));
-        cafes.add(new Information("THE MAGIC OF ALEXANDRIA @ SAFAR KHAN GALLERY","5/04/2018   6:00pm - 10:00pm" ,R.drawable.magic));
-        cafes.add(new Information("OM KOLTHOUM PUPPET SHOW @ EL SAWY","5/05/2018   2:00pm - 8:00pm" ,R.drawable.omkalthom));
-        cafes.add(new Information("ARTISTS OF TOMORROW @ ARTS-MART","5/06/2018   10:30am - 9:00pm" ,R.drawable.artist));
-        cafes.add(new Information("FISHING, NUBIA & HORSES @ PICASSO GALLERY","5/07/2018   6:00pm - 10:00pm" ,R.drawable.nubia));
-        cafes.add(new Information("FREE LAUGHTER YOGA @ AL AZHAR PARK","5/08/2018    10:00am - 5:00pm" ,R.drawable.freelaughter));
-        cafes.add(new Information("NOSTALGIA WITH HARFOUSH @ L'AUBERGE","5/09/2018   2:00pm - 8:00pm" ,R.drawable.nostaliga));
-
+        cafes.add(new Information(getString(R.string.event_name_1),getString(R.string.event_date_1),R.drawable.egyptjazz));
+        cafes.add(new Information(getString(R.string.event_name_2),getString(R.string.event_date_2),R.drawable.karaoke));
+        cafes.add(new Information(getString(R.string.event_name_3),getString(R.string.event_date_3),R.drawable.board));
+        cafes.add(new Information(getString(R.string.event_name_4),getString(R.string.event_date_4),R.drawable.hazem));
+        cafes.add(new Information(getString(R.string.event_name_5),getString(R.string.event_date_5),R.drawable.magic));
+        cafes.add(new Information(getString(R.string.event_name_6),getString(R.string.event_date_6),R.drawable.omkalthom));
+        cafes.add(new Information(getString(R.string.event_name_7),getString(R.string.event_date_7),R.drawable.artist));
+        cafes.add(new Information(getString(R.string.event_name_8),getString(R.string.event_date_8),R.drawable.nubia));
+        cafes.add(new Information(getString(R.string.event_name_9),getString(R.string.event_date_9),R.drawable.freelaughter));
+        cafes.add(new Information(getString(R.string.event_name_10),getString(R.string.event_date_10),R.drawable.nostaliga));
+        
         InfoAdapter Adapter = new InfoAdapter(getActivity(), cafes, R.color.ListItemColor);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
